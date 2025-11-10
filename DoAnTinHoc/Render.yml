@@ -1,0 +1,8 @@
+﻿services:
+  - type: web
+    name: nha-kho-it
+    env: dotnet
+    plan: free
+    buildCommand: 'dotnet publish -c Release -o ./publish'
+    startCommand: 'dotnet ./publish/DoAnTinHoc.dll'
+    autoDeploy: true

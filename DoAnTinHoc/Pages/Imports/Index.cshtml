@@ -1,0 +1,30 @@
+﻿@page
+@model DoAnTinHoc.Pages.Imports.IndexModel
+@{
+    ViewData["Title"] = "Phiếu nhập kho";
+}
+
+<h3>📥 Phiếu nhập kho</h3>
+<p><a class="btn btn-primary" asp-page="Create">Tạo phiếu nhập</a></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr><th>#</th><th>Ngày</th><th>Người</th><th>Số mặt hàng</th><th>Ghi chú</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.Records)
+        {
+            <tr>
+                @* <td>@r.Id</td> *@
+                <td>
+                    <a asp-page="Details" asp-route-id="@r.Id">@r.Id</a>
+                </td>
+
+                <td>@r.Date.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@Model.EmployeeNames[r.EmployeeId]</td>
+                <td>@(r.Items?.Count ?? 0)</td>
+                <td>@r.Note</td>
+            </tr>
+        }
+    </tbody>
+</table>

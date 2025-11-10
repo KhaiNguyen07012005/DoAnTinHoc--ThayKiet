@@ -1,0 +1,14 @@
+﻿@page
+@model DoAnTinHoc.Pages.Products.DeleteModel
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+}
+
+<h2>Xóa sản phẩm</h2>
+<div class="alert alert-danger">
+    Bạn có chắc muốn xóa: <strong>@Model.Product?.Name</strong> ?
+</div>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a class="btn btn-secondary" href="/Products">Hủy</a>
+</form>

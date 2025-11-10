@@ -1,0 +1,92 @@
+﻿@page
+@model DoAnTinHoc.Pages.Imports.CreateModel
+@{
+    ViewData["Title"] = "Tạo phiếu nhập";
+}
+
+<h3>📥 Tạo phiếu nhập kho</h3>
+
+<form method="post" class="mt-3">
+    <div class="mb-3">
+        <label class="form-label">Nhân viên</label>
+        <select class="form-select" asp-for="Record.EmployeeId" required>
+            <option value="">-- Chọn nhân viên --</option>
+            @foreach (var e in Model.Employees)
+            {
+                <option value="@e.Id">@e.Name (@e.Position)</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ghi chú</label>
+        <input type="text" class="form-control" asp-for="Record.Note" />
+    </div>
+
+    <h5>Sản phẩm</h5>
+    <table class="table table-bordered" id="itemsTable">
+        <thead>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>
+                    <button type="button" class="btn btn-sm btn-success" onclick="addRow()">+</button>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Items.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select class="form-select product-select" name="Items[@i].ProductId" required onchange="updatePrice(this)">
+                            <option value="">-- Chọn sản phẩm --</option>
+                            @foreach (var p in Model.Products)
+                            {
+                                <option value="@p.Id" data-price="@p.Price">@p.Name</option>
+                            }
+                        </select>
+                    </td>
+                    <td><input type="number" name="Items[@i].Quantity" class="form-control" required /></td>
+                    <td><input type="number" step="0.01" name="Items[@i].UnitPrice" class="form-control unit-price" required /></td>
+                    <td><button type="button" class="btn btn-sm btn-danger" onclick="removeRow(this)">-</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    <button type="submit" class="btn btn-primary">Lưu phiếu nhập</button>
+    <a asp-page="Index" class="btn btn-secondary">Hủy</a>
+</form>
+
+@section Scripts {
+    <script>
+        function addRow() {
+            var table = document.getElementById('itemsTable').getElementsByTagName('tbody')[0];
+            var index = table.rows.length;
+            var row = table.insertRow();
+            row.innerHTML = `
+                <td><input type="number" name="Items[${index}].ProductId" class="form-control" required /></td>
+                <td><input type="number" name="Items[${index}].Quantity" class="form-control" required /></td>
+                <td><input type="number" step="0.01" name="Items[${index}].UnitPrice" class="form-control" required /></td>
+                <td><button type="button" class="btn btn-sm btn-danger" onclick="removeRow(this)">-</button></td>
+            `;
+        }
+
+        function removeRow(btn) {
+            var row = btn.closest('tr');
+            row.remove();
+            // Cập nhật lại index của các input
+            var table = document.getElementById('itemsTable').getElementsByTagName('tbody')[0];
+            for (var i = 0; i < table.rows.length; i++) {
+                table.rows[i].querySelectorAll('input').forEach(function(input){
+                    var name = input.name;
+                    var parts = name.split(/\[\d+\]/);
+                    input.name = parts[0] + '[' + i + ']' + parts[1];
+                });
+            }
+        }
+    </script>
+}

@@ -1,0 +1,46 @@
+﻿@page
+@model DoAnTinHoc.Pages.Categories.IndexModel
+@{
+    ViewData["Title"] = "Danh mục";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h3 class="mb-0">Danh mục</h3>
+        <div class="small-muted">Quản lý danh mục sản phẩm</div>
+    </div>
+    <div>
+        <a class="btn btn-success" href="/Categories/Create">Tạo mới</a>
+        <a class="btn btn-outline-secondary" href="/Products" style="margin-left:.5rem;">Danh sách sản phẩm</a>
+    </div>
+</div>
+
+@if (Model.Categories == null || !Model.Categories.Any())
+{
+    <div class="alert alert-info">Chưa có danh mục. Nhấn <a href="/Categories/Create">Tạo mới</a></div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th style="width:80px">#</th>
+                <th>Tên</th>
+                <th style="width:220px"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model.Categories)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Name</td>
+                    <td class="text-end">
+                        <a class="btn btn-sm btn-warning" href="/Categories/Edit?id=@c.Id">Sửa</a>
+                        <a class="btn btn-sm btn-danger" href="/Categories/Delete?id=@c.Id">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

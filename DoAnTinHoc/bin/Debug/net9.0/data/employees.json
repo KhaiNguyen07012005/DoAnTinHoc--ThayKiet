@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "Name": "Nguy\u1EC5n V\u0103n An",
+    "Position": "Qu\u1EA3n l\u00FD kho",
+    "Phone": "0912345678",
+    "Email": "an@gmail.com",
+    "Active": true
+  },
+  {
+    "Id": 2,
+    "Name": "Tr\u1EA7n Th\u1ECB B\u00ECnh",
+    "Position": "Nh\u00E2n vi\u00EAn nh\u1EADp kho",
+    "Phone": "0987654321",
+    "Email": "binh@gmail.com",
+    "Active": true
+  }
+]

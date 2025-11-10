@@ -1,0 +1,22 @@
+﻿@page
+@model DoAnTinHoc.Pages.Categories.CreateModel
+@{
+    ViewData["Title"] = "Tạo danh mục";
+}
+
+<h2>Tạo danh mục</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Tên danh mục</label>
+        <input asp-for="Category.Name" class="form-control" required />
+        <span asp-validation-for="Category.Name" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Lưu</button>
+    <a class="btn btn-secondary" href="/Categories">Hủy</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

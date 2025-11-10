@@ -1,0 +1,98 @@
+﻿@page
+@model DoAnTinHoc.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Sản phẩm";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h3 class="mb-0">Sản phẩm</h3>
+        <div class="small-muted">Quản lý kho — xem, tạo, sửa, xóa sản phẩm</div>
+    </div>
+    <div>
+        <a class="btn btn-success" asp-page="./Create">Tạo mới</a>
+    </div>
+</div>
+
+<!-- Show TempData messages nếu có -->
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<!-- PHẦN DASHBOARD STATS -->
+@if (Model.Products != null && Model.Products.Any())
+{
+    <div class="row mb-4">
+        <!-- Tổng sản phẩm -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-boxes fa-2x text-primary mb-2"></i> 
+                    <h4 class="card-title">@Model.Products.Count</h4>
+                    <p class="card-text text-muted">Tổng sản phẩm</p>
+                </div>
+            </div>
+        </div>
+        <!-- Tổng giá trị kho -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-coins fa-2x text-success mb-2"></i>
+                    <h4 class="card-title">@String.Format("{0:N0}", Model.Products.Sum(p => p.Price * p.Quantity)) ₫</h4>
+                    <p class="card-text text-muted">Tổng giá trị kho</p>
+                </div>
+            </div>
+        </div>
+        <!--  Giá trung bình -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-chart-line fa-2x text-info mb-2"></i>
+                    <h4 class="card-title">@String.Format("{0:N0}", Model.Products.Average(p => p.Price)) ₫</h4>
+                    <p class="card-text text-muted">Giá trung bình</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- FORM SEARCH -->
+<form method="get" class="mb-3">
+    <div class="row g-2">
+        <div class="col-sm-6 col-md-4">
+            <input type="text" name="Search" value="@Model.Search" class="form-control" placeholder="Tìm theo tên..." />
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-secondary">Tìm</button>
+            <a class="btn btn-outline-dark" asp-page="./Index">Reset</a>
+        </div>
+    </div>
+</form>
+
+<!-- CARDS GRID -->
+@if (Model.Products == null || !Model.Products.Any())
+{
+    <div class="alert alert-info">Chưa có sản phẩm. Nhấn <a asp-page="./Create">Tạo mới</a></div>
+}
+else
+{
+    <div class="row g-4">
+        @foreach (var p in Model.Products)
+        {
+            <div class="col-md-6 col-lg-4">
+                <partial name="_ProductCard" model="p" />
+            </div>
+        }
+    </div>
+}

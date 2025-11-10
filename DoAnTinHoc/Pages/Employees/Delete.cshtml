@@ -1,0 +1,19 @@
+﻿@page "{id}"
+@model DoAnTinHoc.Pages.Employees.DeleteModel
+@{
+    ViewData["Title"] = "Xóa nhân viên";
+}
+
+<h3>Bạn có chắc muốn xóa nhân viên này?</h3>
+<div class="border p-3 my-3">
+    <p><strong>ID:</strong> @Model.Employee.Id</p>
+    <p><strong>Tên:</strong> @Model.Employee.Name</p>
+    <p><strong>Chức vụ:</strong> @Model.Employee.Position</p>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">
+        <i class="fa fa-trash"></i> Xóa
+    </button>
+    <a asp-page="Index" class="btn btn-secondary ms-2">Hủy</a>
+</form>

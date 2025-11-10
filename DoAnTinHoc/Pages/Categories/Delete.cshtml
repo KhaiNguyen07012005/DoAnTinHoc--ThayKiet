@@ -1,0 +1,16 @@
+﻿@page
+@model DoAnTinHoc.Pages.Categories.DeleteModel
+@{
+    ViewData["Title"] = "Xóa danh mục";
+}
+
+<h2>Xóa danh mục</h2>
+
+<div class="alert alert-danger">
+    Bạn có chắc muốn xóa danh mục: <strong>@Model.Category?.Name</strong> ?
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a class="btn btn-secondary" href="/Categories">Hủy</a>
+</form>

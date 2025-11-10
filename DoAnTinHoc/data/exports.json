@@ -1,0 +1,33 @@
+[
+  {
+    "Id": 1,
+    "Date": "2025-11-10T14:30:00",
+    "EmployeeId": 101,
+    "Note": "Xuất kho sản phẩm A và B",
+    "Items": [
+      {
+        "ProductId": 1,
+        "Quantity": 5,
+        "UnitPrice": 100000
+      },
+      {
+        "ProductId": 2,
+        "Quantity": 3,
+        "UnitPrice": 150000
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Date": "2025-11-11T09:15:00",
+    "EmployeeId": 102,
+    "Note": "Xuất kho sản phẩm C",
+    "Items": [
+      {
+        "ProductId": 3,
+        "Quantity": 2,
+        "UnitPrice": 200000
+      }
+    ]
+  }
+]

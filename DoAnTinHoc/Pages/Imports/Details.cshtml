@@ -1,0 +1,39 @@
+﻿@page "{id:int}"
+@model DoAnTinHoc.Pages.Imports.DetailsModel
+@{
+    ViewData["Title"] = "Chi tiết phiếu nhập";
+}
+
+<h3>📄 Phiếu nhập kho - ID: @Model.Record?.Id</h3>
+
+@if (Model.Record != null)
+{
+    <dl class="row">
+        <dt class="col-sm-3">Ngày nhập</dt>
+        <dd class="col-sm-9">@Model.Record.Date.ToString("yyyy-MM-dd HH:mm")</dd>
+
+        <dt class="col-sm-3">Nhân viên</dt>
+        <dd class="col-sm-9">@Model.EmployeeName</dd>
+
+        <dt class="col-sm-3">Ghi chú</dt>
+        <dd class="col-sm-9">@Model.Record.Note</dd>
+    </dl>
+
+    <h5>Sản phẩm</h5>
+    <table class="table table-bordered">
+        <thead>
+            <tr><th>ProductId</th><th>Số lượng</th><th>Đơn giá</th><th>Thành tiền</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Record.Items)
+            {
+                <tr>
+                    <td>@item.ProductId</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.UnitPrice:C0</td>
+                    <td>@(item.Quantity* item.UnitPrice):C0</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

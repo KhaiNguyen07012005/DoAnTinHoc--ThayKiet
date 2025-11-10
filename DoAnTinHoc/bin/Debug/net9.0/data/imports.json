@@ -1,0 +1,59 @@
+[
+  {
+    "Id": 1,
+    "Date": "2025-11-10T10:00:00",
+    "EmployeeId": 201,
+    "Note": "Nh\u1EADp kho s\u1EA3n ph\u1EA9m A v\u00E0 B",
+    "Items": [
+      {
+        "ProductId": 1,
+        "Quantity": 10,
+        "UnitPrice": 90000
+      },
+      {
+        "ProductId": 2,
+        "Quantity": 5,
+        "UnitPrice": 120000
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Date": "2025-11-11T15:30:00",
+    "EmployeeId": 202,
+    "Note": "Nh\u1EADp kho s\u1EA3n ph\u1EA9m C",
+    "Items": [
+      {
+        "ProductId": 3,
+        "Quantity": 7,
+        "UnitPrice": 150000
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Date": "2025-11-10T14:43:47.5992733+07:00",
+    "EmployeeId": 1,
+    "Note": "12",
+    "Items": [
+      {
+        "ProductId": 2,
+        "Quantity": 1,
+        "UnitPrice": 12121211
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Date": "2025-11-10T14:58:44.1071711+07:00",
+    "EmployeeId": 1,
+    "Note": "123",
+    "Items": [
+      {
+        "ProductId": 2,
+        "Quantity": 2,
+        "UnitPrice": 0.02
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+﻿@page
+@model DoAnTinHoc.Pages.Employees.IndexModel
+@{
+    ViewData["Title"] = "Quản lý nhân viên";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">Quản lý nhân viên</h2>
+    <a asp-page="Edit" class="btn btn-primary">
+        <i class="fa fa-plus"></i> Thêm mới
+    </a>
+</div>
+
+<!-- 🔍 FORM TÌM KIẾM + LỌC -->
+<form method="get" class="row g-2 mb-4">
+    <div class="col-md-4">
+        <input type="text" name="keyword" value="@Model.Keyword" class="form-control" placeholder="Tìm theo tên hoặc chức vụ..." />
+    </div>
+    <div class="col-md-3">
+        <select name="status" class="form-select">
+            <option value="">-- Tất cả trạng thái --</option>
+            <option value="active" selected="@(Model.Status == "active")">Đang làm</option>
+            <option value="inactive" selected="@(Model.Status == "inactive")">Nghỉ việc</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-success w-100">
+            <i class="fa fa-search"></i> Tìm kiếm
+        </button>
+    </div>
+    <div class="col-md-2">
+        <a asp-page="Index" class="btn btn-secondary w-100">
+            <i class="fa fa-undo"></i> Reset
+        </a>
+    </div>
+</form>
+
+<!-- 🧾 DANH SÁCH NHÂN VIÊN -->
+<table class="table table-bordered table-striped align-middle shadow-sm">
+    <thead class="table-primary">
+        <tr class="text-center">
+            <th style="width:70px;">ID</th>
+            <th>Tên nhân viên</th>
+            <th>Chức vụ</th>
+            <th>SĐT</th>
+            <th>Email</th>
+            <th style="width:120px;">Trạng thái</th>
+            <th style="width:150px;">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Employees.Any())
+        {
+            @foreach (var e in Model.Employees)
+            {
+                <tr>
+                    <td class="text-center">@e.Id</td>
+                    <td>@e.Name</td>
+                    <td>@e.Position</td>
+                    <td>@e.Phone</td>
+                    <td>@e.Email</td>
+                    <td class="text-center">
+                        @if (e.Active)
+                        {
+                            <span class="badge bg-success">Đang làm</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Nghỉ</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <a asp-page="Edit" asp-route-id="@e.Id" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                        <a asp-page="Delete" asp-route-id="@e.Id" class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7" class="text-center text-muted py-4">
+                    Không tìm thấy nhân viên nào phù hợp.
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
