@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoAnTinHoc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0b720c60fb8bd027bc4a939e35d22a779f47da5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoAnTinHoc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoAnTinHoc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
