@@ -101,3 +101,4 @@ C:\Users\khain\source\repos\DoAnTinHoc\DoAnTinHoc\obj\Debug\net9.0\compressed\8x
 C:\Users\khain\source\repos\DoAnTinHoc\DoAnTinHoc\bin\Debug\net9.0\data\employees.json
 C:\Users\khain\source\repos\DoAnTinHoc\DoAnTinHoc\bin\Debug\net9.0\data\exports.json
 C:\Users\khain\source\repos\DoAnTinHoc\DoAnTinHoc\bin\Debug\net9.0\data\imports.json
+C:\Users\khain\source\repos\DoAnTinHoc\DoAnTinHoc\obj\Debug\net9.0\DoAnTinHoc.sourcelink.json

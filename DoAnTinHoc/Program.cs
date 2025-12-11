@@ -1,4 +1,4 @@
-using DoAnTinHoc.Data;
+﻿using DoAnTinHoc.Data;
 using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +18,10 @@ builder.Services.AddSingleton(sp => new ProductRepository(productsPath, sp.GetRe
 
 var app = builder.Build();
 
+// ⭐ Quan trọng: ĐỌC PORT TỪ HOSTING ⭐
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://*:{port}");
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
@@ -27,4 +31,5 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 app.UseRouting();
 app.MapRazorPages();
+
 app.Run();

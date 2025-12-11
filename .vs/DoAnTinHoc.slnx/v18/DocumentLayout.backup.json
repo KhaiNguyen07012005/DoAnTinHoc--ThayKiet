@@ -19,6 +19,30 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Publish\\data\\categories.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAnTinHoc\\Pages\\Exports\\Create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAnTinHoc\\Pages\\Exports\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAnTinHoc\\Pages\\Exports\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAnTinHoc\\Pages\\Exports\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Reports\\Inventory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAnTinHoc\\Pages\\Reports\\Inventory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\dsa\\jsonfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\dsa\\jsonfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\dsa\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\dsa\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,20 +55,16 @@
       "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\dsa\\jsonfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\dsa\\jsonfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\pages\\imports\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\pages\\imports\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\pages\\imports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\pages\\imports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\pages\\imports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|solutionrelative:doantinhoc\\pages\\imports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84329326-C0DA-E11A-73A3-FF22FE1C54B8}|DoAnTinHoc\\DoAnTinHoc.csproj|c:\\users\\khain\\source\\repos\\doantinhoc\\doantinhoc\\dsa\\exportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,7 +100,7 @@
               "RelativeDocumentMoniker": "DoAnTinHoc\\Program.cs",
               "ToolTip": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Program.cs",
               "RelativeToolTip": "DoAnTinHoc\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T12:34:44.447Z",
               "EditorCaption": ""
@@ -93,8 +113,7 @@
               "ToolTip": "D:\\Publish\\data\\imports.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T12:28:58.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:28:58.866Z"
             },
             {
               "$type": "Document",
@@ -104,8 +123,7 @@
               "ToolTip": "D:\\Publish\\data\\exports.json",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T12:28:54.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:28:54.47Z"
             },
             {
               "$type": "Document",
@@ -115,8 +133,7 @@
               "ToolTip": "D:\\Publish\\data\\employees.json",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T12:28:51.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:28:51.684Z"
             },
             {
               "$type": "Document",
@@ -126,12 +143,35 @@
               "ToolTip": "D:\\Publish\\data\\categories.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T12:28:48.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:28:48.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Exports\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Create.cshtml.cs",
+              "RelativeToolTip": "DoAnTinHoc\\Pages\\Exports\\Create.cshtml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T09:03:52.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Create.cshtml",
+              "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Exports\\Create.cshtml",
+              "ToolTip": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Create.cshtml",
+              "RelativeToolTip": "DoAnTinHoc\\Pages\\Exports\\Create.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAApwEwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T09:00:44.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "JsonFileStorage.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\DSA\\JsonFileStorage.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\DSA\\JsonFileStorage.cs",
@@ -139,12 +179,11 @@
               "RelativeToolTip": "DoAnTinHoc\\DSA\\JsonFileStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:11:46.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T08:11:46.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "BinarySearchTree.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\DSA\\BinarySearchTree.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\DSA\\BinarySearchTree.cs",
@@ -152,12 +191,11 @@
               "RelativeToolTip": "DoAnTinHoc\\DSA\\BinarySearchTree.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:11:37.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T08:11:37.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\DSA\\ProductRepository.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\DSA\\ProductRepository.cs",
@@ -165,12 +203,11 @@
               "RelativeToolTip": "DoAnTinHoc\\DSA\\ProductRepository.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAAAHUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:11:21.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T08:11:21.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\Models\\Product.cs",
@@ -178,12 +215,35 @@
               "RelativeToolTip": "DoAnTinHoc\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:56:36.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T07:56:36.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Exports\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Index.cshtml.cs",
+              "RelativeToolTip": "DoAnTinHoc\\Pages\\Exports\\Index.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwEEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:28:57.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Exports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Exports\\Index.cshtml",
+              "RelativeToolTip": "DoAnTinHoc\\Pages\\Exports\\Index.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T14:48:26.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Imports\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Imports\\Create.cshtml.cs",
@@ -191,12 +251,11 @@
               "RelativeToolTip": "DoAnTinHoc\\Pages\\Imports\\Create.cshtml.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwBQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:05:40.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T15:05:40.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Index.cshtml",
@@ -208,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Imports\\Create.cshtml",
               "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Imports\\Create.cshtml",
@@ -220,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ExportRepository.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\DSA\\ExportRepository.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\DSA\\ExportRepository.cs",
@@ -232,7 +291,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
+              "Title": "Inventory.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Reports\\Inventory.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnTinHoc\\Pages\\Reports\\Inventory.cshtml.cs",
+              "ToolTip": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Pages\\Reports\\Inventory.cshtml.cs",
+              "RelativeToolTip": "DoAnTinHoc\\Pages\\Reports\\Inventory.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:53:33.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ExportRecord.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\Models\\ExportRecord.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\Models\\ExportRecord.cs",
@@ -244,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\khain\\source\\repos\\DoAnTinHoc\\DoAnTinHoc\\DSA\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "DoAnTinHoc\\DSA\\EmployeeRepository.cs",
