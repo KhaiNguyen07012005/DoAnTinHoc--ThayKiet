@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "DoAnTinHoc/DoAnTinHoc.csproj",
+      "use": "@railway/plugin-dotnet"
+    }
+  ],
+  "start": {
+    "command": "dotnet DoAnTinHoc.dll"
+  }
+}
